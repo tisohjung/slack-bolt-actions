@@ -5,6 +5,7 @@ const app = new App({
 appToken: process.env.SLACK_APP_TOKEN,
   token: process.env.SLACK_BOT_TOKEN,
   socketMode: true,
+//   logLevel: LogLevel.DEBUG,
 });
 
 app.command('/admins', async ({ ack, respond, client }) => {
