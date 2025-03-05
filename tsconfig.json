@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        // Your compiler options here
+    },
+    "include": [
+        "environment.d.ts" // The new file created
+    ]
+}
